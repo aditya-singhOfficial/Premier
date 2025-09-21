@@ -40,6 +40,7 @@ nav > i {
   font-weight: 500;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 nav > h1 {
@@ -49,6 +50,7 @@ nav > h1 {
   text-align: center;
   /* padding: 1.5vw; */
   position: relative;
+  cursor: pointer;
 }
 
 nav > h1::after {
@@ -148,6 +150,7 @@ nav > h2 {
   overflow-x: auto;
   overflow-y: hidden;
   padding: 2% 0%;
+  cursor: pointer;
 }
 
 .scrollContent::-webkit-scrollbar {
@@ -166,6 +169,10 @@ nav > h2 {
   animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.scrollContent:hover .imgContainer {
+  animation-play-state: paused;
 }
 
 .imgContainer img {
@@ -191,6 +198,7 @@ nav > h2 {
 .alphabateContent h2,
 .alphabateContent h4 {
   font-weight: 250;
+  cursor: pointer;
 }
 
 .alphabateContent h2 {
@@ -372,6 +380,7 @@ nav > h2 {
 
 .elem {
   padding-inline: 2vh;
+  cursor: pointer;
   width: 100%;
   height: 15%;
   border-top: 2px solid #000;
@@ -660,6 +669,12 @@ nav > h2 {
 
 .footer .footerWrapper .footLinks .socialLinks i {
   font-size: 1.6vw;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+
+.footer .footerWrapper .footLinks .socialLinks i:hover {
+  transform: scale(1.4);
 }
 
 .footer .footerWrapper .footLinks .copyDetails {

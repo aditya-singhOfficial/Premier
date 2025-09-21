@@ -352,7 +352,366 @@
     width: 95%;
   }
 
-  .footer .footerWrapper .footLinks .copyDetails p{
+  .footer .footerWrapper .footLinks .copyDetails p {
     font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    height: 8vh;
+    margin-top: 1.8vh;
+  }
+
+  .nav > h1,
+  nav > h2,
+  nav > i {
+    display: none;
+  }
+
+  nav > h1 {
+    width: 30%;
+    font-size: 6.2vw;
+  }
+
+  nav > h1::after {
+    content: "©";
+    color: #000;
+    font-size: 2vw;
+    position: absolute;
+    top: 18%;
+    right: 7%;
+  }
+
+  nav > h1::before {
+    content: "model management";
+    color: #000;
+    font-size: 1.2vw;
+    bottom: -5%;
+    right: 16%;
+    position: absolute;
+  }
+
+  nav > h3 {
+    padding-right: 4vw;
+    display: inline;
+  }
+
+  .centerVideoSection {
+    width: 100%;
+    height: 40%;
+    padding: 2vw 2vw;
+  }
+  .centerVideoSectionContent video {
+    object-position: center;
+  }
+
+  .centerVideoSectionText {
+    height: fit-content;
+  }
+
+  .centerVideoSectionText-part1 {
+    height: fit-content;
+  }
+
+  .centerVideoSectionText-part1 h1 {
+    font-size: 7.6vw;
+    font-weight: 350;
+  }
+  .centerVideoSectionText-part1 p {
+    padding: 10px 10px;
+  }
+
+  .centerVideoSectionText-part2 h2 {
+    font-weight: 200;
+    font-size: 4.2vw;
+  }
+  .centerVideoSectionText-part2 img {
+    width: 8vw;
+  }
+  .scrollContent {
+    height: 11vh;
+    overflow-x: hidden;
+  }
+
+  .imgContainer img {
+    height: 100%;
+  }
+
+  .alphabateContent {
+    height: 3.5vh;
+    padding: 1vw 2vw;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+  }
+
+  .alphabateContent h2 {
+    letter-spacing: 0px;
+    font-size: 2.5vw;
+  }
+
+  .alphabateContent h4 {
+    padding: 0.9px 3px;
+    font-size: 1.5vw;
+  }
+
+  .modelPhotoSection {
+    padding: 2vw;
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .modelPhotoSectionPart1 {
+    width: 100%;
+    padding-bottom: 2vh;
+  }
+
+  .modelPhotoSectionPart1Left h2 {
+    padding: 5px 0px 0px 0px;
+    font-size: 8.2vw;
+  }
+  .modelPhotoSectionPart2 {
+    width: 100%;
+  }
+
+  .modelPhotoSectionPart2Right img {
+    height: 100%;
+    width: 100%;
+    /* padding-bottom: 1vh; */
+  }
+
+  .modelPhotoSectionPart1RightText h2 {
+    font-size: 3.2vw;
+    line-height: 1;
+    width: 45%;
+  }
+
+  .modelPhotoSectionPart1RightText p {
+    font-size: 2.4vw;
+  }
+
+  .curverTextConatiner {
+    padding: 2vw;
+    height: 40vh;
+  }
+
+  .curverTextConatinerLeft {
+    width: 30%;
+  }
+  .imgArrowConatiner {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding: 5vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .curverTextConatinerLeft .imgArrowConatiner img:nth-child(1) {
+    width: 280%;
+    height: 280%;
+    object-fit: contain;
+  }
+
+  .curverTextConatinerLeft p {
+    font-size: 2.4vw;
+    padding-inline-start: 2vw;
+  }
+
+  .modelOnlyPhoto {
+    height: 40vh;
+    width: 100%;
+    padding: 2vw;
+  }
+
+  .updateSection {
+    height: 50vh;
+    padding: 2vw;
+  }
+
+  .updateSection > h2 {
+    padding: 10px;
+  }
+
+  .elem {
+    padding-inline: 2vw;
+    height: 18%;
+  }
+
+  .elem img {
+    height: 90%;
+    width: 12%;
+  }
+
+  .elem .elem-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .elem .elem-left h2 {
+    font-size: 3vw;
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+
+  .elem .elem-left h6 {
+    text-transform: uppercase;
+    font-size: 1.2vw;
+  }
+  .movieShootSection {
+    padding: 2vw;
+    height: 60vh;
+  }
+
+  .movieShootSection .movieShootSectionLeft {
+    width: 43%;
+  }
+
+  .movieShootSection .movieShootSectionRight h3 {
+    text-transform: uppercase;
+    font-size: 4.4vw;
+    font-weight: 800;
+  }
+
+  .movieShootSection .movieShootSectionRight h5 {
+    width: 75%;
+    font-size: 2.4vw;
+  }
+
+  .movieShootSection .movieShootSectionRight p {
+    width: 90%;
+    font-size: 2.1vw;
+  }
+  .marqueTextConatiner {
+    height: fit-content;
+  }
+
+  .marqueTextConatiner .scrollableText h5 {
+    font-size: 5.4vw;
+  }
+
+  .blogSection {
+    height: 45vh;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .blogText {
+    width: 10%;
+    padding-top: 2vh;
+    height: 100%;
+  }
+
+  .blogText h2 {
+    font-size: 5vw;
+  }
+
+  .blogImgCenter p {
+    font-size: 2.8vw;
+  }
+
+  .blogImgCenter img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .blogImgRight {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .blogImgRight p {
+    font-size: 2.8vw;
+  }
+
+  .blogImgRight img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .footer {
+    height: 18vh;
+  }
+
+  .footer > h1 {
+    width: 25%;
+    font-size: 6.2vw;
+    height: fit-content;
+    text-align: center;
+    padding: 1.5vw;
+    position: relative;
+  }
+
+  .footer > h1::after {
+    content: "©";
+    color: #000;
+    font-size: 2.4vw;
+    position: absolute;
+  }
+
+  .footer > h1::before {
+    content: "model management";
+    color: #000;
+    font-size: 1.4vw;
+    bottom: 12%;
+    right: 10%;
+    position: absolute;
+  }
+
+  .footer > h2 {
+    font-size: 3.5vw;
+    width: 20%;
+    border-right: 2px solid black;
+    height: 100%;
+    padding: 3.5vw;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .footer .footerWrapper h2 {
+    font-size: 2.8vw;
+    padding: 0.8vw 1.5vw;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+  }
+
+  .footer .footerWrapper .footLinks {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .footer .footerWrapper .footLinks .socialLinks {
+    display: flex;
+    padding: 0.8vw 1.5vw;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .footer .footerWrapper .footLinks .socialLinks i {
+    font-size: 3vw;
+  }
+
+  .footer .footerWrapper .footLinks .copyDetails {
+    padding: 0.8vw 1.5vw;
+    width: 95%;
+  }
+
+  .footer .footerWrapper .footLinks .copyDetails p {
+    font-size: 2.4vw;
   }
 }

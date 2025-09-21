@@ -47,7 +47,7 @@ nav > h1 {
   font-size: 3.2vw;
   height: fit-content;
   text-align: center;
-  padding: 1.5vw;
+  /* padding: 1.5vw; */
   position: relative;
 }
 

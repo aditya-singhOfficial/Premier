@@ -305,6 +305,7 @@ nav > h2 {
 .curverTextConatinerLeft .imgArrowConatiner img:nth-child(1) {
   width: 100%;
   height: 100%;
+  /* position: absolute; */
   object-fit: cover;
   animation-name: moveCirlce;
   animation-duration: 25s;
@@ -680,3 +681,5 @@ nav > h2 {
     transform: translateX(-100%);
   }
 }
+
+
